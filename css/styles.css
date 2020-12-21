@@ -1,0 +1,14 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+.navigace {
+    background-image: url("../img/2o9dv0.png");
+    width: 12%;
+    max-width: 500px;
+    height: 100%;
+}
