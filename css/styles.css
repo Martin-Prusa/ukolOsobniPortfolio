@@ -6,10 +6,10 @@ body {
     height: 100%;
     font-family: Arial, serif;
 }
-
+/*-------------------------Navigace-----------------------------------------------*/
 .navigace {
     text-align: center;
-    background-image: url("../img/2o9dv0.png");
+    background-color: #363636;
     position: fixed;
     left: 0;
     width: 300px;
@@ -20,7 +20,7 @@ body {
 .nadpis {
     font-weight: bold;
     font-size: 40px;
-    margin-top: 7%;
+    margin-top: 50px;
 }
 
 .nav-container {
@@ -55,7 +55,14 @@ a:hover{
     text-align: center;
     margin-left: 70px;
 }
-
+/*-------------------------Obsah stránky-----------------------------------------------*/
 .obsah{
     margin-left: 300px;
+}
+
+.nadpisStranky {
+    font-size: 50px;
+    text-align: center;
+    padding-top: 50px;
+    font-weight: bold;
 }
