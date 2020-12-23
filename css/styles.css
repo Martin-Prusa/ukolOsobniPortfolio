@@ -77,9 +77,9 @@ a:hover{
 
 .okno {
     width: 50%;
-    height: 400px;
+    height: 440px;
     min-width: 800px;
-    min-height: 400px;
+    min-height: 440px;
     background-color: #f3f3f3;
     margin-top: 50px;
 }
@@ -98,6 +98,8 @@ a:hover{
 }
 
 .okno form textarea {
+    font-family: Arial, serif;
+    font-size: 12px;
     margin-top: 20px;
     width: 580px;
     height: 175px;
@@ -107,4 +109,29 @@ a:hover{
 
 .okno form input {
     padding: 3px;
+}
+.okno form input:focus,  .okno form textarea:focus{
+    outline: 1px solid green;
+    border: 1px solid green;
+    padding: 3px;
+}
+
+.tlacitko {
+    text-align: center;
+}
+
+.tlacitko button {
+    border: none;
+    background-color: #363636;
+    font-size: 20px;
+    color: white;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    transition: 500ms;
+    margin-top: 7px;
+}
+
+.tlacitko button:hover {
+    background-color: green;
 }
