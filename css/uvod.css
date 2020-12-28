@@ -1,50 +1,10 @@
-html {
-    height: 100%;
+body {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-body {
-    display: flex;
-    height: 100%;
-    justify-content: center;
-    font-family: Arial, serif;
-    color: white;
+.nadpis {
+    font-size: 40px;
+    margin-top: 15px;
     text-align: center;
 }
 
-.nav {
-    height: 100%;
-    width: 50%;
-    max-width: 700px;
-    background-color: #363636;
-}
-
-h1 {
-    font-weight: bold;
-    font-size: 40px;
-    margin-top: 5%;
-}
-
-a{
-    color: white;
-    text-decoration: none;
-    transition: 500ms;
-}
-a:hover{
-    color: #a1a1a1;
-}
-
-.nav-container {
-    margin-top: 40%;
-}
-
-li{
-    margin: 20px
-}
-
-p{
-    font-size: 20px;
-}
-
-#ac {
-    font-weight: bold;
-}
