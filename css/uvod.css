@@ -13,11 +13,28 @@ body {
     background-position: center;
 }
 
+.nadpis-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.nadpis-container2 {
+    margin-top: 20px;
+    background-color: #363636;
+    width: 500px;
+    height: 70px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .nadpis {
     font-weight: bold;
     font-size: 45px;
-    margin-top: 5%;
-    text-align: center;
+    color: white;
 }
 
 .navigace-container {
