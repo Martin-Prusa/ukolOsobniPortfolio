@@ -41,7 +41,7 @@ p{
     font-weight: bold;
 }
 
-a{
+.nav-container a{
     color: white;
     text-decoration: none;
     transition: 500ms;
@@ -161,4 +161,27 @@ a:hover{
 .obr {
     margin-top: 10px;
     max-height: 350px;
+}
+
+/*------------------------------------------O MNĚ--------------------------------------*/
+.text {
+    margin-top: 20px;
+}
+
+.sit {
+    margin-top: 20px;
+}
+
+.sit a {
+    color: black;
+    text-decoration: none;
+    transition: 500ms;
+}
+
+.sit a:hover{
+    color: #009400;
+}
+
+.pSt {
+    font-size: 24px;
 }
