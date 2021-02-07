@@ -185,3 +185,41 @@ a:hover{
 .pSt {
     font-size: 24px;
 }
+
+.nav {
+    display: none;
+}
+
+@media screen and (max-width: 1100px) {
+    /* Celkové */
+    .navigace {
+        display: none;
+    }
+
+    .obsah {
+        margin-left: 0;
+    }
+    /* Galerie */
+
+    .obr {
+        max-width: 300px;
+    }
+
+    /* Kontakt */
+
+    .okno {
+        width: 300px;
+        min-width: 300px;
+        height: 570px;
+    }
+
+    input { 
+        margin-top: 5px;
+        margin-left: 20px;
+    }
+
+    .okno form textarea {
+        width: 260px;
+        margin-left: 20px;
+    }
+}

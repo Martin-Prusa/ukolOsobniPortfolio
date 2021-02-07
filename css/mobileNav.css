@@ -1,0 +1,62 @@
+.nav {
+    margin: 0;
+    width:100%;
+    height: 60px;
+    background-color: #363636;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    display: none;
+}
+
+.header {
+    width: 40%;
+}
+
+.nav .a {
+    display: flex;
+    align-items: center;
+}
+
+#ul1 {
+    width: 100%;
+    text-align: right;
+    margin-right: 30px;
+    display: inline-block;
+}
+
+#ul1 li {
+    display: inline-block;
+    margin: 5px;
+}
+
+.list {
+    color: white;
+    padding: 18px;
+    margin-left: 12px;
+    margin-top:3px;
+    font-size: 18px;
+}
+
+.moznosti {
+    display: none;
+    background-color: #f1f1f1;
+    width: 100px;
+}
+
+.moznosti a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 12px 16px;
+}
+
+.menu:hover .moznosti {
+    display: block;
+}
+
+@media screen and (max-width: 1100px) {
+    .nav {
+        display: flex;
+    }
+}
